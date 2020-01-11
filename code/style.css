@@ -1,0 +1,137 @@
+html, body{
+    height: 100%;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    margin: 0;
+    background-color: #191919;
+    color: white;
+}
+
+.container{
+    position: relative;
+    margin: 0;
+    background-color: #fff;
+    width: 55%;
+    height: calc(100% - 0px);
+    overflow: hidden;
+    float: left;
+
+}
+
+.glitch-img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-position: center;
+    background-size: cover;
+    opacity: 1;
+    background-image: url("taylor.jpg");
+}
+.main{
+ 
+}
+nav{
+text-align: right;
+margin: 0 5% 0 0;
+padding-top: 2%;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    margin: 0 1% 0 1%;
+    font-weight: 500;
+}
+.headline h4{
+    font-family: 'Cutive Mono', monospace;
+    font-size: 50px;
+
+    margin-top: 12vh;
+    width: 20%;
+    padding-left: 68.3%;
+    position: relative;
+    z-index: 1000;
+
+}
+.content{
+ 
+    margin-left: 68%;
+    
+}
+.content p{
+    position: absolute;
+    z-index: 1000;
+    font-weight: 23px;
+    padding-top: 6vw;
+    width: 25%;
+}
+
+
+.wrapper{
+    position: absolute;
+    top: 14.9vw;
+    left: 87%;
+    transform: translate(-50%, -50%);
+    width: 30%;
+
+}
+svg{
+    width: 70%;
+}
+.arrow{
+    position: absolute;
+    top: 83.5vh;
+    left: 77.5%;
+    width: 3%;
+    animation: drop 2s infinite;
+}
+
+path{
+
+    stroke: #FF1566;
+    fill: #FF1566;
+    stroke-dasharray: 1300;
+    opacity: 10;
+    animation: animate 3s cubic-bezier(0,0.23,1,.1);
+
+}
+
+@keyframes drop{
+    0%{
+        top: 83.5vh;
+    }
+    50%{
+        top: 86.5vh;
+    }
+    100%{
+        top: 83.5vh;
+    }
+}
+
+
+
+@keyframes animate {
+    0%{
+        opacity: 0;
+        fill: none;
+        stroke-dashoffset: 1300;
+    }
+
+    30%{
+        opacity: 10;
+        fill: none;
+        stroke-dashoffset: 1300;
+    }
+    90%{
+        fill: rgba(255, 21, 102, 0);
+    }
+    100%{
+        opacity: 10;
+        fill: rgba(255, 21, 102, 1);
+        stroke-dashoffset: 0;
+    }
+}
