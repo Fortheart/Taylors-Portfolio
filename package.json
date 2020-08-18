@@ -2,7 +2,7 @@
   "name": "taylors-portfolio",
   "version": "1.0.0",
   "description": "Simple design for Photographer portfolio",
-  "main": "./code/index.html",
+  "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
