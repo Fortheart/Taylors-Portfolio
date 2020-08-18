@@ -1,0 +1,23 @@
+{
+  "name": "taylors-portfolio",
+  "version": "1.0.0",
+  "description": "Simple design for Photographer portfolio",
+  "main": "./code/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fortheart/Taylors-Portfolio.git"
+  },
+  "keywords": [
+    "Photography",
+    "Portfolio"
+  ],
+  "author": "Martin Zvozil",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Fortheart/Taylors-Portfolio/issues"
+  },
+  "homepage": "https://github.com/Fortheart/Taylors-Portfolio#readme"
+}
